@@ -1,15 +1,15 @@
 #include<stdio.h>
-#includ<conio.h.
-void main()
+int main()
 {
 char ch;
 printf("enter any alphabet");
 scanf("%c",&ch);
-if((ch>=65&&ch<=90)||(ch>=97&&ch,+122))
-printf("enter character is alphabet"0;
-}
+if((ch>=65&&ch<=90)||(ch>=97&&ch<=122))
+printf("enter character is alphabet");
 else
 {
 printf("enter character is not an alphabet");
-getch();
+return 0;
 }
+}
+
