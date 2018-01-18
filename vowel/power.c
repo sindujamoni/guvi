@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-int base,power;
+int base,power,result=1;
 printf(enter the number",base,power);
 scanf("%d%d",&base,&power);
 result=pow(base,power);
