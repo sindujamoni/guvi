@@ -3,7 +3,7 @@ int main()
 {
 int n,rem,rev=0,t;
 printf("enter the number");
-scanf("%d".&n);
+scanf("%d",&n);
 t=n;
 while(n!=0)
 {
@@ -17,7 +17,7 @@ printf("%d is palindrome",n);
 }
 else
 {
-printf("%d is not a palindrome");
+printf("%d is not a palindrome",n);
 }
 return 0;
 }
