@@ -1,5 +1,5 @@
-	
-#include<conio.h>
+	#include>stdio.h>
+        #include<conio.h>
 	void main()
 	{
 	int n,i,t,a=150,b=160,rem,result=0;
@@ -18,6 +18,8 @@
 	if(t==result)
 	{
 	printf("armstrong number between two intervals are %d ",result);
+	}
+	}
 	}
 	}
 
