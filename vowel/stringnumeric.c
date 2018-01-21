@@ -1,9 +1,9 @@
 #include<stdio.h>
 void main()
 {
-int n;
+int r;
 char ch;
-scanf("%d",&n);
+scanf("%d",&r);
 if((ch>=65&&ch<=90)||(ch>=97&&ch<=122))
 {
 printf("no");
