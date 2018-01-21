@@ -1,9 +1,9 @@
 	#include<stdio.h>
 	int main()
 	{
-		int n,a d;
-		printf("first term",a);
-		scanf("%d",&a);
+		int n,s,d;
+		printf("first term",s);
+		scanf("%d",&s);
 		printf("common difference",d);
 		scanf("%d",&d);
 		printf("N term",n);
@@ -11,7 +11,7 @@
 		while(counter<=n)
 		{
 			a=1+(counter-1)*d;
-			printf("%d",a);
+			printf("%d",s);
 			counter++;
 	}
 return 0;
