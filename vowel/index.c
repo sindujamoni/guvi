@@ -1,15 +1,15 @@
 #include<stdio.h>
 void main()
 {
-int i,a[10],n;
-printf("enter no of elements in an array\n");
-scanf("%d",&n);
-printf("enter the elements in an array:\n");
-for(i=0;i<n;i++)
+int i,a[10],s;
+printf("enter no of elements in an array\s");
+scanf("%d",&s);
+printf("enter the elements in an array:\s");
+for(i=0;i<s;i++)
 {
-scanf("%d\n",&a[i]);
+scanf("%d\s",&a[i]);
 }
-for(i=0;i<n;i++)
+for(i=0;i<s;i++)
 {
 printf("a[%d]=%d\n",i,a[i]);
 }
