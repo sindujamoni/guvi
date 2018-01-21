@@ -20,6 +20,6 @@
 	printf("armstrong number between two intervals are %d ",result);
 	}
 	}
-	}
-	}
+	
+	
 
