@@ -2,16 +2,16 @@
 int main()
 {
 char a[10];
-int i,b=0;
+int i,c=0;
 scanf("%s",&a[i]);
 while(a[i]!='\0')
 {
 if((a[i]>='a')&&(a[i]<='z'))
 {
-b+=1;
+c+=1;
 }
 i++;
 }
-printf("%d",b);
+printf("%d",c);
 return 0;
 }
