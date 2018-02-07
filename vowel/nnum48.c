@@ -6,9 +6,7 @@ int main()
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
-        printf("enter the number");
-        scanf("%d",&a);
-        sum=sum+a;
+    sum=sum+i;
     }
     printf("avg is %d",sum/n);
     return 0;
