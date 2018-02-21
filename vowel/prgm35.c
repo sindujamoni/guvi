@@ -3,7 +3,7 @@
 void main()
 {
     char a[100];
-    int count = 0, i;
+    int c = 0, i;
  
     printf("enter the string\n");
     scanf("%[^\n]s",&a);
@@ -11,9 +11,9 @@ void main()
     {
         if (a[i]>='0'&&a[i]<='9')
         {
-        count++;
+        c++;
         }
    
 }
- printf("%d", count);
+ printf("%d", c);
 }
