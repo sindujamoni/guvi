@@ -3,7 +3,7 @@
 void main()
 {
     char a[100];
-    int count = 0, i,alpha=0,digit=0,spc=0,sc=0;
+    int c= 0, i,alpha=0,digit=0,spc=0,sc=0;
  
     printf("enter the string\n");
     scanf("%[^\n]s",&a);
