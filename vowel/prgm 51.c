@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) 
+int main()
 {
 	int num,rem,rev=0;
 	printf("enter the number:");
