@@ -1,14 +1,13 @@
 #include <stdio.h>
-
-int main(void) 
+int main()
 {
-char string[50];
-int i=0,count=0,flag=0;
+char a[50];
+int i,flag=0;
 printf("\n enter the given string:");
-scanf("%s",string);
-while(string[i]!='\0')
+scanf("%s",&a[i]);
+while(a[i]!='\0')
 {
-if(string[i]=='a'||string[i]=='e'||string[i]=='i'||string[i]=='o'||string[i]=='u'||string[i]=='A'||string[i]=='E'||string[i]=='I'||string[i]=='O'||string[i]=='U')
+if(a[i]=='a'||a[i]=='e'||a[i]=='i'||a[i]=='o'||a[i]=='u'||a[i]=='A'||a[i]=='E'||a[i]=='I'||a[i]=='O'||a[i]=='U')
 flag=1;
 i++;
 }
