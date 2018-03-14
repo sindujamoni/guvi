@@ -1,14 +1,14 @@
-#include <stdio.h>
+#include<stdio.h>
 #include<string.h>
-int main(void) 
+int main()
 {
-	char str[50];
+	char a[10];
 	int i,flag=0;
-	printf("\nenter the string:");
-	scanf("%s",str);
-	for(i=0;str[i]!='\0';i++)
+	printf("enter the string:");
+	scanf("%s",a[i]);
+	for(i=0;a[i]!='\0';i++)
 	{
-		if(str[i]==str[i+1])
+		if(a[i]==a[i+1])
 		{
 			flag=1;
 			break;
@@ -16,11 +16,11 @@ int main(void)
 	}
 	if(flag==1)
 	{
-		printf("\nno");
+		printf("no");
 	}
 	else
 	{
-		printf("\nyes");
+		printf("yes");
 	}
 	return 0;
 }
